@@ -12,11 +12,12 @@
         android:id="@+id/imageView"
         android:layout_width="186dp"
         android:layout_height="181dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="66dp"
         android:src="@drawable/_103_confetti"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:srcCompat="@drawable/_103_confetti"
-        tools:layout_editor_absoluteX="16dp" />
+        app:srcCompat="@drawable/_103_confetti" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -33,11 +34,12 @@
         android:id="@+id/imageView4"
         android:layout_width="186dp"
         android:layout_height="181dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="48dp"
         android:src="@drawable/_103_confetti"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:srcCompat="@drawable/_103_confetti"
-        tools:layout_editor_absoluteX="16dp" />
+        app:srcCompat="@drawable/_103_confetti" />
 
     <TextView
         android:id="@+id/textView3"
